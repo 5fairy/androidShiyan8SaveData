@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/create_database"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create database"
+        android:textSize="24dp"/>
+
+    <Button
+        android:id="@+id/add_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add category"
+        android:textSize="24dp"/>
+
+    <Button
+        android:id="@+id/add_bookActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AddBookActivity"
+        android:textSize="24dp"/>
+
+    <Button
+        android:id="@+id/select_bookList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Book"
+        android:textSize="24dp"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="2"
+            android:text="书名"
+            android:textSize="24dp"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="类别"
+            android:textSize="24dp"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="价格"
+            android:textSize="24dp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

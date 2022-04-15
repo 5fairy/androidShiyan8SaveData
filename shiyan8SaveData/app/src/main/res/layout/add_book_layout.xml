@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="BookName :"
+                android:textSize="24sp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"/>
+            <EditText
+                android:id="@+id/add_bookName"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:textSize="24sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="Author :"
+                android:textSize="24sp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"/>
+            <EditText
+                android:id="@+id/add_bookAuthor"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:textSize="24sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="Price :"
+                android:textSize="24sp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"/>
+            <EditText
+                android:id="@+id/add_bookPrice"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:textSize="24sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="Pages :"
+                android:textSize="24sp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"/>
+            <EditText
+                android:id="@+id/add_bookPages"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:textSize="24sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="Category_id :"
+                android:textSize="24sp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"/>
+            <EditText
+                android:id="@+id/add_Category_id"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:textSize="24sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/add_book"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add book"
+        android:textSize="24dp"/>
+
+</LinearLayout>
